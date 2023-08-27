@@ -1,3 +1,18 @@
+pluginManagement {
+    repositories {
+        gradlePluginPortal()
+        mavenCentral()
+        mavenLocal()
+        maven {
+            url = uri("https://my.location/repo")
+            credentials.username = "user"
+            credentials.password = "password"
+        }
+    }
+
+    includeBuild("gradle/plugins")
+}
+
 dependencyResolutionManagement {
     repositories {
         mavenCentral()

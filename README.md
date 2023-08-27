@@ -6,3 +6,8 @@ dependencyResolutionManagement
 ### includeBuild
 - include other gradle build 
 
+pluginManagement
+plugin 관련 설정 
+### includeBuild
+- should write local plugin
+
