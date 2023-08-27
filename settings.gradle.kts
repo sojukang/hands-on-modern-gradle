@@ -8,6 +8,8 @@ dependencyResolutionManagement {
             credentials.password = "password"
         }
     }
+
+    includeBuild("../my-other-project")
 }
 
 include("app")
