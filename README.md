@@ -15,3 +15,8 @@ rootProject.name
 give name to project, default is directory name
 
 ![img.png](img.png)
+
+build.gradle
+plugins
+- should always have a plugin block in the top 
+- 
