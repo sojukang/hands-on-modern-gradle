@@ -27,6 +27,8 @@ dependencyResolutionManagement {
 //    includeBuild("../my-other-project")
 }
 
+rootProject.name = "hands-on-modern-gradle"
+
 include("app")
 include("business-logic")
 include("data-model")

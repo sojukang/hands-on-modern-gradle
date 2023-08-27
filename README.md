@@ -11,3 +11,7 @@ plugin 관련 설정
 ### includeBuild
 - should write local plugin
 
+rootProject.name
+give name to project, default is directory name
+
+![img.png](img.png)
