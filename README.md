@@ -29,6 +29,8 @@ give name to project, default is directory name
 plugins
 
 - should always have a plugin block in the top
+- application
+    - adds functionality for packaging and running java applications
 
 ## Dependency types
 
