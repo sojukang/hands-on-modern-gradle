@@ -41,3 +41,12 @@ plugins
 | compileOnly    | Used for compilation of the current module and is not available at runtime nor during compilation of other modules.                                                           | Use for APIs which have a third-party implementation available at runtime.                                                                                                                  |
 | runtimeOnly    | Available at runtime but is not visible during compilation of any module.                                                                                                     |                                                                                                                                                                                             |
 
+## java plugin
+
+```kotlin
+java {
+    toolchain.languageVersion.set(JavaLanguageVersion.of(20))
+}
+```
+- set java version 
+
